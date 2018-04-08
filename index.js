@@ -43,7 +43,7 @@ stringutils.decamelize = function(string, seperator) {
     const regex1 = xregexp('([\\p{Ll}\\d])(\\p{Lu})', 'g');
     const regex2 = xregexp('(\\p{Lu}+)(\\p{Lu}[\\p{Ll}\\d]+)', 'g');
 
-    return text.replace(regex1, `$1${separator}$2`).replace(regex2, `$1${separator}$2`).toLowerCase();
+    return string.replace(regex1, `$1${separator}$2`).replace(regex2, `$1${separator}$2`).toLowerCase();
 };
 stringutils.wrap = function(string, options) {
     options = options || {};
