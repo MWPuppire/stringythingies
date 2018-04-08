@@ -38,7 +38,7 @@ stringutils.titleCase = function(string) {
 stringutils.uppercaseFirst = function(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
-stringutils.decamelize = function(string, seperator) {
+stringutils.decamelize = function(string, separator) {
     separator = separator || "_";
     const regex1 = xregexp('([\\p{Ll}\\d])(\\p{Lu})', 'g');
     const regex2 = xregexp('(\\p{Lu}+)(\\p{Lu}[\\p{Ll}\\d]+)', 'g');
