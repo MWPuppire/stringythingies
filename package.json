@@ -1,0 +1,26 @@
+{
+  "name": "stringythingies",
+  "version": "1.0.0",
+  "author": "MWPuppire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwpuppire/stringythingies.git"
+  },
+  "dependencies": {
+    "xregexp": "^4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mwpuppire/stringythingies/issues"
+  },
+  "homepage": "https://github.com/mwpuppire/stringythingies#readme",
+  "description": "Library with random string utilities and useful functions.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string"
+  ],
+  "license": "ISC"
+}
